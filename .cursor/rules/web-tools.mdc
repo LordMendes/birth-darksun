@@ -1,0 +1,10 @@
+---
+description: Keep campaign notes in docs/ and add new Next.js tools from the repo root
+alwaysApply: true
+---
+
+# Web tools
+
+`web/` is a pnpm workspace package. Run it from the **repo root**: `pnpm install`, `pnpm dev`, `pnpm build`.
+
+Campaign notes stay in `docs/`. Do not put lore in the Next.js app. New tools are App Router routes plus a card on the home tools list.

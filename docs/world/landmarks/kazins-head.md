@@ -1,0 +1,43 @@
+---
+title: Kazin's Head
+kind: landmark
+status: canon
+era: FY 10
+location: Tablelands
+last_updated: 2026-09-16
+sources: ["The Wanderer's Chronicle, p102","Digital Wanderer"]
+population: unknown
+races: []
+ruler: unknown
+culture: unknown
+atlas_id: kazins-head
+---
+
+## Summary
+
+Located on a northern rise, Kazin's Heads (Kazin's Chak'sas in kreen) features a series of stone edifices shaped liked giant kreen heads.  The origin of these formations in unknown, but considered to be sacred by the tohr-kreen nation.  The zik-chil have ordered this place off limits to the general public and has an elite guard force of to'ksa gladiators in place to protect it.  All beings who are spotted near Kazin's Chak'sas are given one warning to leave.  Failure to do so means facing the claws of the to'ksa.<br><br>Unknown to the zik-chil, a group of kreen dissidents has managed to gather among the ruins, out of site of the to'ksa.  They call themselves the Kazin'tek and their numbers are unclear.  The Kazin'tek believe that the empire has been corrupted by the current lifestyle of the kreen. For the Kazin'tek, the time has come to return to a simpler way of life, like the one embraced by the nomadic thri-kreen to the south.  They believe that this is the only way the tohr-kreen can survive.
+
+## Government
+
+unknown
+
+## People
+
+unknown
+
+## Trade
+
+unknown
+
+## Sites
+
+unknown
+
+## Notes
+
+Reference: The Wanderer's Chronicle, p102
+
+## Unknowns
+
+- Population breakdown by race not recorded in available sources.
+- Ruler and culture pending campaign sources.

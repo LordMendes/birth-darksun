@@ -1,0 +1,43 @@
+---
+title: Celik
+kind: city-state
+status: canon
+era: FY 10
+location: Tablelands
+last_updated: 2026-09-16
+sources: ["The Wanderer's Chronicle, p116","Digital Wanderer"]
+population: "7500"
+races: []
+ruler: unknown
+culture: unknown
+atlas_id: celik
+---
+
+## Summary
+
+Celik is an ancient city that was once a jewel of the Green Age.  Now it is mostly a jumble of ruins, but a mixture of outcasts from all across the wastes have reclaimed much of it as their home.  A human named Korsun, the patriarch of House Mareneth, is the leader of the city.  The merchant houses of Celik control the city as nobility, and all other denizens are considered free citizens.  In reality, citizens are bound in servitude to the merchant houses or expelled from the city.  As long as the terms of the merchant houses are met, the citizens receive food, water, and a place to live.<br><br>The city is divided into two portions: the living city and the ruins.  The living city is home to the merchant houses and all citizens, whereas the ruins remain dangerous and untamed.  Korsun and his troops have been slowly expanding the living city for years, and adventurers are often a welcome addition to his forces.  Good money can be earned working for the merchant houses, but one must be careful to not enter into contracts that can result in indentured servitude to House Mareneth.<br><br>Celik trades mostly with the southern areas of the Tyr region, and even then traders from the city attempt to keep a low profile.  Korsum has no interest in attracting the eyes of the city states, and prefers to remain a mystery to most of those in the north.
+
+## Government
+
+unknown
+
+## People
+
+unknown
+
+## Trade
+
+unknown
+
+## Sites
+
+unknown
+
+## Notes
+
+Reference: The Wanderer's Chronicle, p116
+
+## Unknowns
+
+- Population breakdown by race not recorded in available sources.
+- Ruler and culture pending campaign sources.

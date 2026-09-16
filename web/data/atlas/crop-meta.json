@@ -1,0 +1,57 @@
+{
+  "u-c5-last-frontier": {
+    "left": 84,
+    "top": 74,
+    "width": 1545,
+    "height": 954,
+    "inset": {
+      "left": 29,
+      "top": 35,
+      "width": 624,
+      "height": 492
+    },
+    "legend": "inset-covered"
+  },
+  "u-c6-misty-sea": {
+    "left": 685,
+    "top": 225,
+    "width": 4191,
+    "height": 2854,
+    "legend": "left-strip"
+  },
+  "u-d4-forgotten-north": {
+    "left": 685,
+    "top": 226,
+    "width": 4191,
+    "height": 2854,
+    "legend": "left-strip"
+  },
+  "u-d5-tablelands": {
+    "left": 685,
+    "top": 225,
+    "width": 4191,
+    "height": 2855,
+    "legend": "left-strip"
+  },
+  "u-d6-dead-lands": {
+    "left": 685,
+    "top": 225,
+    "width": 4191,
+    "height": 2854,
+    "legend": "left-strip"
+  },
+  "u-e4-northern-anattan": {
+    "left": 685,
+    "top": 225,
+    "width": 4190,
+    "height": 2855,
+    "legend": "left-strip"
+  },
+  "u-e5-anattan-coast": {
+    "left": 701,
+    "top": 225,
+    "width": 4175,
+    "height": 2855,
+    "legend": "left-strip"
+  }
+}

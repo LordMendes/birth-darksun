@@ -1,0 +1,43 @@
+---
+title: Ravage
+kind: village
+status: canon
+era: FY 10
+location: Tablelands
+last_updated: 2026-09-16
+sources: ["The Wanderer's Chronicle, p104","Digital Wanderer"]
+population: "300"
+races: []
+ruler: unknown
+culture: unknown
+atlas_id: ravage
+---
+
+## Summary
+
+Ravage is one of the largest, best organized, and wealthiest of the Bandit States.  It resembles a large trade village more than a struggling ex-slave community.  Its leader, Talid the bandid lord, has a vision that keeps Ravage on a path of growth and could mean big things for all the Bandit states.  However, few of his fellow bandit lords are willing to cooperate at the level necessary for the mul's plans to succeed.<br><br>Talid wants to unite the Bandit States into one nation that stretches across the entire Barrier Wastes.  Of course, the ex-gladiator from Raam sees himself as the head of the nation of outlaws, a vision that causes other bandit lords lots of trouble.  They don't trust Talid or his grand promises of wealth and power.  When the mul calls for a conclave of bandit lords, most of the tribal leaders answer.  These meetings routinely break down as each leader tries to get the best deal for his or her own tribe.  Talid is never able to get them to understand the value of cooperation or the strength a united front would give the tribes.<br><br>Though all the other Bandit States distrust Ravage in the extreme and are jealous of its wealth, none of the competing tribes are willing to attack the village directly.  As it's extremely well-fortified, direct attacks against the village often end in victory for the defenders and loss of life for the attackers.
+
+## Government
+
+unknown
+
+## People
+
+unknown
+
+## Trade
+
+unknown
+
+## Sites
+
+unknown
+
+## Notes
+
+Reference: The Wanderer's Chronicle, p104
+
+## Unknowns
+
+- Population breakdown by race not recorded in available sources.
+- Ruler and culture pending campaign sources.

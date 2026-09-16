@@ -1,0 +1,31 @@
+---
+description: Capture Dark Sun campaign notes into the right file and keep the folder schema honest
+alwaysApply: true
+---
+
+# Campaign documentation
+
+This repo is a **D&D 3.5 Dark Sun** campaign bible. When the user asks to take notes, capture exactly what they gave, then file it under `docs/`. Do not invent lore, stats, or rulings. Do not put campaign notes in `web/`.
+
+## File vs new file
+
+1. Search existing markdown under `docs/` (names, places, factions, session dates, rule titles) before writing.
+2. **Update** the existing file when the note is about an entity or topic that already has a page, or when it is a small addendum to a closely related page.
+3. **Create** a new file when the note is a distinct entity, a new session, or a topic that would make the current file mix two primary subjects.
+4. Prefer one primary topic per file. Split a file that has grown into two subjects; merge only when two files are clearly the same entity under different names.
+5. Names: `kebab-case.md`. Sessions: `YYYY-MM-DD-short-title.md` when the date is known.
+
+Place new files using the schema in `docs/README.md` (`docs/campaign/`, `docs/sessions/`, `docs/world/`, `docs/people/`, `docs/factions/`, `docs/rules/`, `docs/adventures/`, `docs/reference/`). Create the folder on first use. Do not add empty stubs.
+
+After creating a page, add a link from the most relevant parent (`docs/README.md`, city-state, faction, or campaign overview). Do not duplicate the same fact in multiple files.
+
+## Schema review (every notes request)
+
+After filing, check whether the current folders still fit **all docs that exist**, not only the new note.
+
+- Promote a nested topic to its own folder when a directory holds mixed kinds of pages or a single file is absorbing an entire category.
+- Add a new top-level folder under `docs/` when a note class has no honest home; update the schema table in `docs/README.md` in the same change.
+- Remove or merge folders that no longer match how notes are actually grouped.
+- If the schema is still sufficient, do not restructure.
+
+`docs/README.md` is the index of record. Keep its schema table aligned with the tree on disk.

@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "worldBounds": {
+    "sw": [
+      0,
+      0
+    ],
+    "ne": [
+      8565,
+      12573
+    ]
+  },
+  "overlays": [
+    {
+      "id": "wanderer-compilation",
+      "name": "Wanderer Tablelands compilation",
+      "kind": "compilation",
+      "gridCell": "U-D4,U-D5",
+      "parentId": null,
+      "sourceUrl": "https://www.digitalwanderer.net/darksun/images/athas_map.jpg",
+      "localPath": "source/wanderer-compilation.jpg",
+      "bounds": {
+        "sw": [
+          2638.385908938192,
+          3943.8892859306925
+        ],
+        "ne": [
+          8282.079838956755,
+          8376.666701611264
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Digital Wanderer atlas"
+    },
+    {
+      "id": "u-c5-last-frontier",
+      "name": "U-C5 The Last Frontier",
+      "kind": "LRM",
+      "gridCell": "U-C5",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/LRM-C5&6_LastFrontier.png",
+      "localPath": "source/u-c5-last-frontier.png",
+      "bounds": {
+        "sw": [
+          2855,
+          0
+        ],
+        "ne": [
+          5710,
+          4191
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [
+        "u-c6-misty-sea"
+      ],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-c6-misty-sea",
+      "name": "U-C6 Misty Sea and Western Obsidian Plains",
+      "kind": "WTM",
+      "gridCell": "U-C6",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-C6_MistySeaRegion.png",
+      "localPath": "source/u-c6-misty-sea.png",
+      "bounds": {
+        "sw": [
+          0,
+          0
+        ],
+        "ne": [
+          2855,
+          4191
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [
+        "u-c5-last-frontier"
+      ],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d4-forgotten-north",
+      "name": "U-D4 Forgotten North",
+      "kind": "WTM",
+      "gridCell": "U-D4",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-D4_ForgottenNorth.png",
+      "localPath": "source/u-d4-forgotten-north.png",
+      "bounds": {
+        "sw": [
+          5710,
+          4191
+        ],
+        "ne": [
+          8565,
+          8382
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d4-trembling-plains",
+      "name": "Trembling Plains",
+      "kind": "SRM",
+      "gridCell": "U-D4",
+      "parentId": "u-d4-forgotten-north",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/SRM_U-D4&5_The_Trembling_Plains.png",
+      "localPath": "source/u-d4-trembling-plains.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d4-lost-cities",
+      "name": "Lost Cities",
+      "kind": "LRM",
+      "gridCell": "U-D4",
+      "parentId": "u-d4-forgotten-north",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D5_Lost_Cities.png",
+      "localPath": "source/u-d4-lost-cities.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-tablelands",
+      "name": "U-D5 Tablelands",
+      "kind": "WTM",
+      "gridCell": "U-D5",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-D5_ExpandedTyrRegion.png",
+      "localPath": "source/u-d5-tablelands.png",
+      "bounds": {
+        "sw": [
+          2855,
+          4191
+        ],
+        "ne": [
+          5710,
+          8382
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-grey-coast",
+      "name": "The Grey Coast",
+      "kind": "LRM",
+      "gridCell": "U-D5",
+      "parentId": "u-d5-tablelands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D5_The_Grey_Coast_Reavers_of_Silt_Sea.png",
+      "localPath": "source/u-d5-grey-coast.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-vakura-island",
+      "name": "Vakura Island",
+      "kind": "LRM",
+      "gridCell": "U-D5",
+      "parentId": "u-d5-tablelands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D5_VakuraIsland_Scale_Tail_Claw.png",
+      "localPath": "source/u-d5-vakura-island.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-pterran-vale",
+      "name": "Pterran Vale",
+      "kind": "LRM",
+      "gridCell": "U-D5",
+      "parentId": "u-d5-tablelands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D5-PterranValeArea_Scale_Tail_Claw.png",
+      "localPath": "source/u-d5-pterran-vale.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-tyr-region",
+      "name": "The Tyr Region",
+      "kind": "SRM",
+      "gridCell": "U-D5",
+      "parentId": "u-d5-tablelands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/SRM_U-D5_The_Tyr_Region.png",
+      "localPath": "source/u-d5-tyr-region.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d5-valley-dust-fire",
+      "name": "Valley of Dust & Fire",
+      "kind": "SRM",
+      "gridCell": "U-D5",
+      "parentId": "u-d5-tablelands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/SRM_D5E5_ValleyofDustandFire.png",
+      "localPath": "source/u-d5-valley-dust-fire.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d6-dead-lands",
+      "name": "U-D6 Dead Lands",
+      "kind": "WTM",
+      "gridCell": "U-D6",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-D6_DeadLands.png",
+      "localPath": "source/u-d6-dead-lands.png",
+      "bounds": {
+        "sw": [
+          0,
+          4191
+        ],
+        "ne": [
+          2855,
+          8382
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d6-dead-thrones",
+      "name": "The Dead Thrones Region",
+      "kind": "LRM",
+      "gridCell": "U-D6",
+      "parentId": "u-d6-dead-lands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D6_DeadThrones.jpg",
+      "localPath": "source/u-d6-dead-thrones.jpg",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-d6-elemental-plateau",
+      "name": "The Elemental Plateau",
+      "kind": "LRM",
+      "gridCell": "U-D6",
+      "parentId": "u-d6-dead-lands",
+      "sourceUrl": "https://ds.daegmorgan.net/maps/regions/LRM_U-D6_ElementalPlateau.png",
+      "localPath": "source/u-d6-elemental-plateau.png",
+      "bounds": null,
+      "minZoom": 1,
+      "maxZoom": 4,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-e4-northern-anattan",
+      "name": "U-E4 Northern Anattan Coast",
+      "kind": "WTM",
+      "gridCell": "U-E4",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-E4_NorthernAnattanCoast.png",
+      "localPath": "source/u-e4-northern-anattan.png",
+      "bounds": {
+        "sw": [
+          5710,
+          8382
+        ],
+        "ne": [
+          8565,
+          12573
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    },
+    {
+      "id": "u-e5-anattan-coast",
+      "name": "U-E5 Anattan Coast and Spiral Lands",
+      "kind": "WTM",
+      "gridCell": "U-E5",
+      "parentId": null,
+      "sourceUrl": "https://ds.daegmorgan.net/maps/world/WTM_U-E5_CentralAnattanCoast_FY1.png",
+      "localPath": "source/u-e5-anattan-coast.png",
+      "bounds": {
+        "sw": [
+          2855,
+          8382
+        ],
+        "ne": [
+          5710,
+          12573
+        ]
+      },
+      "minZoom": 0,
+      "maxZoom": 3,
+      "overlaps": [],
+      "attribution": "Athasian Cartographers' Guild"
+    }
+  ]
+}

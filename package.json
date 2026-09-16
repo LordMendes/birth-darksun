@@ -1,0 +1,18 @@
+{
+  "name": "darksun",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "atlas:import": "node scripts/import-wanderer.mjs",
+    "atlas:fetch": "node scripts/fetch-atlas-assets.mjs",
+    "atlas:crop": "node scripts/crop-atlas-tiles.mjs",
+    "atlas:georef": "node scripts/georef-atlas.mjs",
+    "atlas:gazetteers": "node scripts/generate-gazetteers.mjs",
+    "atlas:tiles": "node scripts/build-atlas-tiles.mjs",
+    "test:atlas": "pnpm --filter web test:atlas"
+  }
+}

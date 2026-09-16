@@ -1,0 +1,10 @@
+node_modules
+.pnpm-store
+web/.next
+web/out
+web/public/atlas/source/
+web/public/atlas/cropped/
+web/public/atlas/tiles/
+*.tsbuildinfo
+.env*
+.DS_Store

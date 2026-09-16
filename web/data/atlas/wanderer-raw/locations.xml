@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<locations>
+	<landmark title="Azeth's Rest" xposition="1329" yposition="1188" icon="standard" fulltext="loc_azeth" label="bottom" />
+	<landmark title="Awthuuk" xposition="477" yposition="396" icon="standard" fulltext="loc_awthuuk" label="bottom" />
+	<landmark title="Bartigar" xposition="1783" yposition="318" icon="standard" fulltext="loc_bartigar" label="top" />
+	<landmark title="Bav-rem" xposition="842" yposition="448" icon="standard" fulltext="loc_bavrem" label="top" />
+	<landmark title="Blue Shrine" xposition="175" yposition="2162" icon="standard" fulltext="loc_blueshrine" label="bottom" />
+	<landmark title="Bvanen Cave City" xposition="894" yposition="339" icon="standard" fulltext="loc_bvanen" label="top" />
+	<landmark title="Buried City" xposition="1401" yposition="702" icon="standard" fulltext="loc_buriedcity" label="bottom" />
+	<landmark title="Celik" xposition="544" yposition="2066" icon="standard" fulltext="loc_celik" label="bottom" />
+	<landmark title="City of 1000 Dead" xposition="1100" yposition="2302" icon="standard" fulltext="loc_city100dead" label="top" />
+	<landmark title="Crimson Monolith" xposition="1159" yposition="2038" icon="standard" fulltext="loc_crimsonmonolith" label="bottom" />
+	<landmark title="Dezig" xposition="706" yposition="250" icon="standard" fulltext="loc_dezig" label="bottom" />
+	<landmark title="Dragon's Crown" xposition="450" yposition="1440" icon="standard" fulltext="loc_dragonscrown" label="bottom" />
+	<landmark title="Durg's Puddle" xposition="375" yposition="2188" icon="standard" fulltext="loc_durg" label="bottom" />
+	<landmark title="Eldaarich" xposition="1614" yposition="952" icon="standard" fulltext="loc_eldaarich" label="bottom" />
+	<landmark title="Euripis" xposition="1732" yposition="2068" icon="standard" fulltext="loc_euripis" label="bottom" />
+	<landmark title="Fort Holz" xposition="1666" yposition="903" icon="standard" fulltext="loc_fortholz" label="bottom" />
+	<landmark title="Fort Protector" xposition="1562" yposition="794" icon="standard" fulltext="loc_fortprotector" label="top" />
+	<landmark title="Foul Puddle" xposition="1295" yposition="680" icon="standard" fulltext="loc_foulpuddle" label="bottom" />
+	<landmark title="Galth's Spring" xposition="1766" yposition="653" icon="standard" fulltext="loc_galthsspring" label="top" />
+	<landmark title="Godshold" xposition="883" yposition="579" icon="standard" fulltext="loc_godshold" label="bottom" />
+	<landmark title="Hidden Village" xposition="691" yposition="1508" icon="standard" fulltext="loc_hiddenvillage" label="bottom" />
+	<landmark title="Hogalay" xposition="1348" yposition="962" icon="standard" fulltext="loc_hogalay" label="bottom" />
+	<landmark title="J'eztere" xposition="69" yposition="773" icon="standard" fulltext="loc_jeztere" label="bottom" />
+	<landmark title="Kakikix" xposition="366" yposition="91" icon="standard" fulltext="loc_kakikix" label="bottom" />
+	<landmark title="Kalidnay" xposition="637" yposition="1910" icon="standard" fulltext="loc_kalidnay" label="bottom" />
+	<landmark title="Kano Swamp" xposition="355" yposition="505" icon="standard" fulltext="loc_kanoswamp" label="bottom" />
+	<landmark title="Kazin's Head" xposition="788" yposition="104" icon="standard" fulltext="loc_kazinshead" label="bottom" />
+	<landmark title="Kel's Lot" xposition="964" yposition="881" icon="standard" fulltext="loc_kelslot" label="bottom" />
+	<landmark title="Ket" xposition="1292" yposition="1350" icon="standard" fulltext="loc_ket" label="bottom" />
+	<landmark title="Koschak Mountains" xposition="125" yposition="217" icon="standard" fulltext="loc_koschak" label="bottom" />
+	<landmark title="Ko'teg" xposition="213" yposition="609" icon="standard" fulltext="loc_koteg" label="bottom" />
+	<landmark title="Kurn" xposition="1540" yposition="830" icon="standard" fulltext="loc_kurn" label="bottom" />
+	<landmark title="Last Drink" xposition="1023" yposition="2109" icon="standard" fulltext="loc_lastdrink" label="bottom" />
+	<landmark title="Lava Gorge" xposition="1176" yposition="502" icon="standard" fulltext="loc_lavagorge" label="bottom" />
+	<landmark title="Lost Scale" xposition="290" yposition="1697" icon="standard" fulltext="loc_lostscale" label="bottom" />
+	<landmark title="L'rax" xposition="524" yposition="176" icon="standard" fulltext="loc_lrax" label="bottom" />
+	<landmark title="Magehome" xposition="1235" yposition="466" icon="standard" fulltext="loc_magehome" label="bottom" />
+	<landmark title="Mak'gyth" xposition="196" yposition="813" icon="standard" fulltext="loc_makgyth" label="bottom" />
+	<landmark title="Malthy" xposition="1481" yposition="157" icon="standard" fulltext="loc_malthy" label="bottom" />
+	<landmark title="Moon Runner's Rest" xposition="1395" yposition="291" icon="standard" fulltext="loc_moonrunner" label="top" />
+	<landmark title="New Kurn" xposition="1498" yposition="787" icon="standard" fulltext="loc_newkurn" label="bottom" />
+	<landmark title="Nexus" xposition="1754" yposition="710" icon="standard" fulltext="loc_nexus" label="top" />
+	<landmark title="Nirik" xposition="316" yposition="787" icon="standard" fulltext="loc_nirik" label="top" />
+	<landmark title="Obsidian Citadel" xposition="908" yposition="2334" icon="standard" fulltext="loc_obsidiancitadel" label="top" />
+	<landmark title="Pareth" xposition="738" yposition="609" icon="standard" fulltext="loc_pareth" label="top" />
+	<landmark title="Pillage" xposition="1110" yposition="759" icon="standard" fulltext="loc_pillage" label="top" />
+	<landmark title="Plunder" xposition="1182" yposition="799" icon="standard" fulltext="loc_plunder" label="top" />
+	<landmark title="Pterran Vale" xposition="223" yposition="1724" icon="standard" fulltext="loc_pterranvale" label="bottom" />
+	<landmark title="Pyreen Grove" xposition="712" yposition="910" icon="standard" fulltext="loc_pyreengrove" label="top" />
+	<landmark title="Ral" xposition="1431" yposition="380" icon="standard" fulltext="loc_ral" label="top" />
+	<landmark title="Ravage" xposition="1060" yposition="941" icon="standard" fulltext="loc_ravage" label="bottom" />
+	<landmark title="Ravish" xposition="1166" yposition="905" icon="standard" fulltext="loc_ravish" label="bottom" />
+	<landmark title="Sahr-tosh" xposition="976" yposition="237" icon="standard" fulltext="loc_sahrtosh" label="top" />
+	<landmark title="Saragar" xposition="1230" yposition="98" icon="standard" fulltext="loc_saragar" label="top" />
+	<landmark title="Silt Side" xposition="1646" yposition="850" icon="standard" fulltext="loc_siltside" label="top" />
+	<landmark title="Small Home" xposition="632" yposition="2266" icon="standard" fulltext="loc_smallhome" label="top" />
+	<landmark title="Small Water" xposition="1558" yposition="512" icon="standard" fulltext="loc_smallwater" label="top" />
+	<landmark title="Somber Woods" xposition="914" yposition="529" icon="standard" fulltext="loc_somberwoods" label="bottom" />
+	<landmark title="South Guard" xposition="1545" yposition="956" icon="standard" fulltext="loc_southguard" label="top" />
+	<landmark title="Spoil" xposition="1129" yposition="1055" icon="standard" fulltext="loc_spoil" label="bottom" />
+	<landmark title="Star Rock" xposition="644" yposition="1140" icon="standard" fulltext="loc_starrock" label="bottom" />
+	<landmark title="Steaming Water" xposition="1063" yposition="582" icon="standard" fulltext="loc_steamingwater" label="bottom" />
+	<landmark title="Ter-omak" xposition="777" yposition="552" icon="standard" fulltext="loc_teromak" label="top" />
+	<landmark title="Thamasku" xposition="626" yposition="964" icon="standard" fulltext="loc_thamasku" label="bottom" />
+	<landmark title="Thaythilor" xposition="108" yposition="1186" icon="standard" fulltext="loc_thaythilor" label="bottom" />
+	<landmark title="The Battle Wall" xposition="241" yposition="1385" icon="standard" fulltext="loc_battlewall" label="bottom" />
+	<landmark title="Trade Nest" xposition="1330" yposition="353" icon="standard" fulltext="loc_tradenest" label="top" />
+	<landmark title="Tyr" xposition="631" yposition="1609" icon="standard" fulltext="loc_tyr" label="top" />
+	<landmark title="Vanishing Lake" xposition="1772" yposition="1941" icon="standard" fulltext="loc_vanishinglake" label="bottom" />
+	<landmark title="Vir-rath" xposition="876" yposition="357" icon="standard" fulltext="loc_virrath" label="bottom" />
+	<landmark title="Winter Nest" xposition="1347" yposition="897" icon="standard" fulltext="loc_winternest" label="bottom" />
+	<landmark title="Wrath" xposition="982" yposition="1013" icon="standard" fulltext="loc_wrath" label="bottom" />
+	<landmark title="Yihn-tol" xposition="720" yposition="657" icon="standard" fulltext="loc_yihntol" label="bottom" />
+	<landmark title="Z'aythar" xposition="120" yposition="903" icon="standard" fulltext="loc_zaythar" label="bottom" />
+</locations>

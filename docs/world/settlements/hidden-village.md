@@ -1,0 +1,43 @@
+---
+title: Hidden Village
+kind: village
+status: canon
+era: FY 10
+location: Tablelands
+last_updated: 2026-09-16
+sources: ["The Wanderer's Chronicle, p67; Slave Tribes p22","Digital Wanderer"]
+population: "500"
+races: []
+ruler: unknown
+culture: unknown
+atlas_id: hidden-village
+---
+
+## Summary
+
+The Hidden Village lies at the bottom of a crater within the foothills of the Great Alluvial Sand Wastes, in the shadow of the Ringing Mountains. Within the crater, the village lies on a raised stone platform surrounded by sturdy brick walls and heavy gates. Here live the Free, a tribe of ex-slaves that now form a well-to-do trading house. Liberty and freedom are the most valuable commodities in the Hidden Village, as every member has roots as an ex-slave. All members of the Hidden Village are free to come and go as they please, with their many talents aiding in communal trade or defense. The members of the Hidden Village supplement their trading income with raids against caravans that are carrying slaves, recruiting those that they free. Each raid allows the village's ranks and capabilities to swell.<br><br>The leader of the Free is human fighter named Trade Master Bartras. He is a charismatic and clever man, and sees himself as the leader in a war against the slave owners. He battles them in the deserts with his raiding parties, and in the marketplaces with his trading house. Bartras is supported by Governor Drog, a dwarf fighter known for his strict but fair administration of the village's day-to-day operations. He is a reluctant leader in the village as he considers himself above no other, and he secretly wishes for Bartras to abolish all positions of command. The two work together to strengthen their trade routes with the free city of Tyr, and to open new trade routes to the west.
+
+## Government
+
+unknown
+
+## People
+
+unknown
+
+## Trade
+
+unknown
+
+## Sites
+
+unknown
+
+## Notes
+
+Reference: The Wanderer's Chronicle, p67; Slave Tribes p22
+
+## Unknowns
+
+- Population breakdown by race not recorded in available sources.
+- Ruler and culture pending campaign sources.

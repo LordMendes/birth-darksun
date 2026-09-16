@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "paths": [
+    "cropped/u-c5-last-frontier.png",
+    "cropped/u-c6-misty-sea.png",
+    "cropped/u-d4-forgotten-north.png",
+    "cropped/u-d5-tablelands.png",
+    "cropped/u-d6-dead-lands.png",
+    "cropped/u-e4-northern-anattan.png",
+    "cropped/u-e5-anattan-coast.png",
+    "source/u-c5-last-frontier.png",
+    "source/u-c6-misty-sea.png",
+    "source/u-d4-forgotten-north.png",
+    "source/u-d4-lost-cities.png",
+    "source/u-d4-trembling-plains.png",
+    "source/u-d5-grey-coast.png",
+    "source/u-d5-pterran-vale.png",
+    "source/u-d5-tablelands.png",
+    "source/u-d5-tyr-region.png",
+    "source/u-d5-vakura-island.png",
+    "source/u-d5-valley-dust-fire.png",
+    "source/u-d6-dead-lands.png",
+    "source/u-d6-dead-thrones.jpg",
+    "source/u-d6-elemental-plateau.png",
+    "source/u-e4-northern-anattan.png",
+    "source/u-e5-anattan-coast.png",
+    "source/wanderer-compilation.jpg"
+  ]
+}
