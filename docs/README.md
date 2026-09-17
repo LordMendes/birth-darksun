@@ -43,4 +43,8 @@ If a note does not fit any row, add a folder (or a file under `docs/`) and updat
 
 ## Status
 
-Atlas gazetteer and interactive map (`/map`) are in progress under `world/`. Other folders appear as campaign notes land.
+- **Campaign:** [Premise](campaign/premise.md) — gods died at the Shattering; primordial legacies and covenant
+- **Rules:** [House rules](rules/README.md) — Athasian scion legacy powers, psionics (DS3 baseline + overrides)
+- **World:** Atlas gazetteer and interactive map (`/map`) under `world/`
+
+Browse everything at `/docs` in the web app.

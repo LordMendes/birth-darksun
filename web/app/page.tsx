@@ -1,9 +1,10 @@
 import Link from "next/link";
 
 const SHORTCUTS = [
+  { href: "/docs/campaign", label: "Campaign" },
   { href: "/docs/world", label: "World" },
-  { href: "/docs/sessions", label: "Sessions" },
   { href: "/docs/rules", label: "Rules" },
+  { href: "/docs/sessions", label: "Sessions" },
   { href: "/docs/people", label: "People" },
 ] as const;
 

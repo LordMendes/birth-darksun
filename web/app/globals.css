@@ -393,7 +393,7 @@ a:hover {
 }
 
 .docs-main > article {
-  width: min(42rem, 100%);
+  width: min(54rem, 100%);
 }
 
 .docs-breadcrumbs {
@@ -587,12 +587,21 @@ a:hover {
 
 .prose-doc h2 {
   font-size: 1.35rem;
-  margin: 2rem 0 0.7rem;
+  margin: 2.25rem 0 0.55rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: calc(var(--header-h) + 0.75rem);
 }
 
 .prose-doc h3 {
-  font-size: 1.1rem;
-  margin: 1.4rem 0 0.5rem;
+  font-size: 0.8rem;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 1.35rem 0 0.4rem;
+  scroll-margin-top: calc(var(--header-h) + 0.75rem);
 }
 
 .prose-doc p,
@@ -611,24 +620,64 @@ a:hover {
 
 .prose-doc-table-wrap {
   overflow-x: auto;
-  margin: 1rem 0;
+  margin: 0.4rem 0 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
 .prose-doc table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
+  font-family: var(--font-ui), system-ui, sans-serif;
+  line-height: 1.45;
 }
 
 .prose-doc th,
 .prose-doc td {
-  border: 1px solid var(--border);
-  padding: 0.45rem 0.6rem;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 0.7rem;
   text-align: left;
+  vertical-align: top;
+}
+
+.prose-doc tr:last-child td {
+  border-bottom: 0;
 }
 
 .prose-doc th {
   background: var(--code-bg);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.prose-doc tbody tr:nth-child(even) td {
+  background: var(--surface);
+}
+
+.prose-doc td:first-child {
+  font-weight: 600;
+  color: var(--sun);
+  white-space: nowrap;
+  width: 1%;
+}
+
+.prose-doc td:nth-child(2) {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  width: 1%;
+}
+
+.prose-doc td:nth-child(3) {
+  color: var(--foreground);
 }
 
 .prose-doc code {

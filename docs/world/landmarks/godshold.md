@@ -37,6 +37,8 @@ unknown
 
 Reference: The Wanderer's Chronicle, p107
 
+**Table premise:** The Shattering — death of the Green Age pantheon — is placed at Godshold in [campaign premise](../../campaign/premise.md).
+
 ## Unknowns
 
 - Population breakdown by race not recorded in available sources.

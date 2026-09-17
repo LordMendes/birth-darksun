@@ -17,6 +17,10 @@ pnpm atlas:crop
 
 `atlas:crop` strips the Guild left-hand legend and white padding so markers sit on the painted geography. The atlas UI shows that legend as a collapsible tray.
 
+## Related
+
+[Rules sources](rules-sources.md) — BRCS, EPH, DS3, wild talent conversions.
+
 ## Attribution
 
 Dark Sun © Wizards of the Coast. Guild maps © Raven Daegmorgan / Wild Hunt Studios. Wanderer atlas © Randy Ostridge.
