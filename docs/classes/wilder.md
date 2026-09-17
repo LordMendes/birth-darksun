@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "EPH SRD"]
 
 ## Overview
 
-For most wilders, psionics is discovered—not chosen—often under stress without academy training. Many treat it as a "knack" until power defines them.
+For most wilders, psionic power is not a choice, but a discovery. Some wilders discovered their mental powers in childhood or puberty. While psions train in the academies to harness their abilities, wilders tend to discover their powers accidentally and without training. Most wilders never work to harness their powers, lacking the time, inclination, or Will to further their training. Low-level wilders often think of their power as a handy "gift" or "knack", rather than a trait that defines them. Generally, only the more focused and powerful will actually identify themselves as "wilders". Wilders often first release their abilities while under great stress. Even as they progress, stress or excitement can flood through a wilder, allowing a display of power beyond their normal range of ability.
 
 ## Making a Wilder
 

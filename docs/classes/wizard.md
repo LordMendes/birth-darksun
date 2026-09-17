@@ -19,9 +19,11 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-Athasian wizards draw energy from surrounding soil—**preservers** take only what they can without killing plants; **defilers** leave ash and sterile soil. Arcane magic and literacy are outlawed in the Seven Cities; spellbooks must be hidden.
+Athasian wizards draw energy from the surrounding soil. The method used labels the wizard as a defiler or a preserver. Preservers have the self-control to gather energy without destroying plants. Those who do not, or who feel no remorse about the damage caused, become defilers. Defilers leave behind sterile soil and infertile ash when they cast spells. Because of this, most wastelanders blame wizards for the desert landscape that dominates the Tablelands today, and their hatred extends to defilers and preservers alike.
 
-Defiler and preserver are not separate classes—see Chapter 6 defiling rules (not duplicated here).
+In the Seven Cities, arcane magic is outlawed and feared. Writing is also illegal in the Tablelands, thus wizards have to go to great lengths to conceal their spellbooks, and they have refined this art to the point where even fellow wizards can be hard pressed to identify a spellbook. When found, they are precious resources, hoarded and studied by wizards thirsty for knowledge or power.
+
+Defiler and preserver are not separate classes. Whether to defile is a choice faced by all arcane spellcasters; full rules are in DS3 Chapter 6 (not duplicated here).
 
 ## Making a Wizard
 

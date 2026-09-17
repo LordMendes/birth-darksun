@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "EPH SRD"]
 
 ## Overview
 
-"Psychic warrior" translates thri-kreen **chakak** ("mind warrior"). Non-kreen were long called **mercenary psionicists** in the Tablelands.
+The term "psychic warrior" is a loose translation of the thri-kreen word "chakak," which is better translated as "mind warrior." In the Tablelands, non-kreen psychic warriors have long been known as "mercenary psionicists."
 
 ## Making a Psychic Warrior
 

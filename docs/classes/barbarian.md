@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-Brutality is a way of life on Athas—in city and waste alike. Athasians who turn brutality into an art of war are brutes, barbarians, or feral warriors: impious, superstitious, cunning, merciless, fearless, and persistent.
+Brutality is a way of life in Athas, as much in some of the cities as in the dwindling tribes of Athas' harsh wastes. Cannibal headhunting [halflings](../races/halfling.md) (who occasionally visit [Urik](../world/settlements/urik.md) from the Forest Ridge) sometimes express shock at the savagery and bloodshed of the folk that call themselves "civilized" and live between walls of stone. They would be more horrified if they were to see the skull piles of [Draj](../world/settlements/draj.md), experience the Red Moon Hunt in [Gulg](../world/settlements/gulg.md), or watch a seemingly docile house slave in [Eldaarich](../world/settlements/eldaarich.md) rage as she finally "goes feral", taking every frustration of her short cruel life out on whoever happens to be closest at hand. Nibenese sages claim that the potential for savagery is in every sentient race, and the history of Athas seems to support their claim. Some Athasians have turned their brutality into an art of war. They are known as "brutes", "barbarians", or "feral warriors", and they wear the name with pride. Impious but superstitious, cunning and merciless, and fearless and persistent, they have carved a name for their martial tradition out of fear and blood.
 
 ## Making a Barbarian
 

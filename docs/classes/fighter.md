@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-From desert forts to merchant-house guards, fighters are Athas's most common warriors—trained for skirmish and mass battle, often rising to command city-state armies.
+From the small forts in sandy wastes of Athas to the guards of the merchant houses in the city-states, fighters are Athas' most common sight. Whether it is as mercenaries for the sorcerer-kings or as hired guards protecting the wealth of the nobility, fighters can be found everywhere in the Tablelands. Athas' fighters are trained both to fight in small groups and huge units. Those that have proven themselves become the commanders in the city-states' armies, leading hundreds or even thousands of men into war.
 
 ## Making a Fighter
 

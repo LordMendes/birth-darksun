@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-Without gods, Athasian spiritualism unlocks Earth, Air, Fire, and Water—and paraelemental perversions (Magma, Rain, Silt, Sun) at war with creation.
+In a world without gods, spiritualism on Athas has unlocked the secrets of the raw forces of which the very planet is comprised: Earth, Air, Fire, and Water. However, other forces exist which seek to supplant them and rise to ascendancy in their place. These forces have taken up battle against the elements of creation on the element's own ground in the form of entropic perversions of the elements themselves: Magma, Rain, Silt, and Sun.
 
 ## Making a Cleric
 

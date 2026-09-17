@@ -19,7 +19,9 @@ sources: ["Athas.org DS3 v8"]
 
 ## Overview
 
-The arena is the gladiator's battlefield—from mud pits to city-state grand games. Masters of crowd control and prolonged combat, they fight for glory, wealth, prestige, and survival—slave or free.
+The arena is the battlefield of the gladiator. From hand-to-hand combat in the mud pits of small forts to the grand games of the city-states, a gladiator is a warrior who fights to the sounds of people cheering his name or cursing her presence. A master of crowd control and the art of prolonged combat, gladiators are trained to fight.
+
+Gladiators train to best wild beasts in deadly games for the amusement of the masses. They fight for glory, wealth, prestige, and power. They fight to survive. Some are merely slaves, having to fight and perhaps hoping to win a chance to obtain freedom, while some fight willingly for the thrill of combat or the promise of riches and fame.
 
 ## Making a Gladiator
 

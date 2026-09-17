@@ -19,7 +19,11 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-From disreputable quarters of Athasian cities comes the bard—master of oral tradition and forgotten lore who **guards** secrets rather than sharing them freely. Bards sell information, poisons, antidotes, entertainment, and assassination. Respectable folk despise them; the powerful fear them; everyone eventually needs their services.
+From the shadowy corners of Athas' most disreputable places hails the bard. Like their counterparts in other fantasy worlds, Athasian bards are the unquestioned masters of oral tradition and forgotten lore, but rather than sharing their lore with whoever will listen, Athasian bards guard their secrets as jealously as the sorcerer-kings harbor their water and iron. Athasian bards may sell information to the highest bidder; they peddle their services and the fruits of their knowledge, but trade secrets are what give bards an edge on the uninitiated. Bards would rather die than reveal these secrets.
+
+Meeting a bard can be an uneasy encounter, since one never knows how the bard has chosen to devote his talents. Some bards master the art of making poisons, and survive by selling these poisons and their antidotes for those who have the coin to pay. Some bards master the art of entertainment, using their performances to amuse nobles and templars and gain wealth. Some become assassins, mixing their knowledge of poison and stealth to become hired killers.
+
+The unique position of bards in Athasian society means they often overhear conversations between high-ranking templars or nobles, or may have treated an injured person that prefers to remain anonymous. Respectable folk despise them; the powerful fear them; but in the Athasian cities, everyone eventually comes to need their services.
 
 ## Making a Bard
 

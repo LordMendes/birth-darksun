@@ -19,7 +19,9 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-Athasian druids protect the dying landscape, reclaim barren lands, and guard spirits of the land—often unseen until their oasis or territory is violated.
+Athasian druids are the protectors of Athas' dying landscape. Patient and often unforgiving, they try to preserve and reclaim the barren lands that surround the Tyr region. Well armed with spells and abilities from the spirits of the land, they work to bolster Athas' failing ecology.
+
+Often, druids prefer to remain hidden, observing the behavior of creatures and people before passing judgment. Travelers to an oasis are often unaware they are being observed; wanton destruction of the oasis will bring the full fury of the druid and their many abilities.
 
 ## Making a Druid
 

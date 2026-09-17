@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8"]
 
 ## Overview
 
-Templars are civil servants of the sorcerer-king's temple/bureau/order—judge, jury, executioner, tax collector, and garbage collector. Spell power is stolen from the elemental planes and granted by the monarch.
+Templars are civil servants within a city-state's government organization commonly referred to as a "temple," "bureau," or "order." Each templar swears obedience to their temple, and absolute fealty to their sorcerer-monarch. In return, the sorcerer-king grants them spell power stolen from the elemental planes. In most city-states, templars are the ultimate authority — judge, jury, and executioner. Templars police and administer the city-states, and serve other civil roles ranging from general to jailor and from tax collector to garbage collector.
 
 ## Making a Templar
 

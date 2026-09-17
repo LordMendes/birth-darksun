@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "EPH SRD"]
 
 ## Overview
 
-The psion learns the Way—mental discipline to master the Will and manifest supernatural effects. Most cities host psionic academies where masters train students for coin or service.
+The psion learns the Way, a philosophy of mental discipline, to become master of their will, their innate mental power. Most aspiring psions seek out an instructor, a master of the Way. Most Athasian cities contain psionic academies where students receive instructions in exchange for money or loyal service.
 
 ## Making a Psion
 

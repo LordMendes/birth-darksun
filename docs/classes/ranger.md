@@ -19,7 +19,7 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-The wastes breed fierce creatures; rangers are the hunters who know the land and their prey in deadly detail.
+The wastes of Athas are home to fierce and cunning creatures, from the bloodthirsty tembo to the malicious gaj. Because of this, Athasians have long learned how to adapt and survive even in the most inhospitable and savage environments. One of the most cunning and powerful creatures of the wastes is the ranger, a skilled hunter and stalker. A ranger knows their lands as if they were the ranger's home (as indeed they are); a ranger knows their prey in deadly detail.
 
 ## Making a Ranger
 

@@ -19,7 +19,9 @@ sources: ["Athas.org DS3 v8", "d20 SRD"]
 
 ## Overview
 
-Athas runs on intrigue—nobles, templars, and merchant houses deploy rogues as pawns. From street rats to dune traders to gate-searching templar clerks, accomplished rogues serve nobility for wealth or a quick death.
+Athas is a world of intrigue, manipulation, secret deals, and subtle treachery — in short, a rogue's playground. Rather than eking out their living at the borders of society, many Athasian rogues dominate the action in some of the most powerful political factions in the Seven Cities: the Noble Houses, the templars, and the Merchant Houses. Often rogues themselves, the wealthy and powerful deploy lesser rogues as pawns in their endless games of acquisition, espionage, and deceit.
+
+Individual rogues run the gamut of Athasian society, from the street rats of the cities to the vagabonds of the outlands, to the prosperous and respectable dune traders, to the low-ranking templars that search caravans at the gates. Accomplished rogues are often sought out by the nobility as agents, and can earn both wealth and honor in such positions — or a quick death should they be caught contemplating treachery against their masters.
 
 ## Making a Rogue
 
