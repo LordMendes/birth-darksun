@@ -29,3 +29,5 @@ After filing, check whether the current folders still fit **all docs that exist*
 - If the schema is still sufficient, do not restructure.
 
 `docs/README.md` is the index of record. Keep its schema table aligned with the tree on disk.
+
+When a change alters the public setting picture or how to run the app, update the root `README.md` in the same change.
