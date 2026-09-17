@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, it } from "node:test";
 import { fileURLToPath } from "node:url";
-import { parseLegaciesPage, splitTypicalPowers } from "./parse-legacies-page.ts";
+import { parseLegaciesPage, splitTypicalPowers } from "./parse-legacies-page";
 
 const fixture = `# Primordial legacies
 

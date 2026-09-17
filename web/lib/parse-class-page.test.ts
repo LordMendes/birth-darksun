@@ -7,7 +7,7 @@ import {
   classPageKind,
   parseClassPage,
   parseClassesIndex,
-} from "./parse-class-page.ts";
+} from "./parse-class-page";
 
 const docsRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),

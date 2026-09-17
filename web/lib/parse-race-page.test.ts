@@ -8,7 +8,7 @@ import {
   parseRacesIndex,
   parseRegionsPage,
   racePageKind,
-} from "./parse-race-page.ts";
+} from "./parse-race-page";
 
 const docsRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),

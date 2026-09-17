@@ -8,7 +8,7 @@ import {
   parseHeroicCatalog,
   parseHeroicIndex,
   parseHeroicReligion,
-} from "./parse-heroic-page.ts";
+} from "./parse-heroic-page";
 
 const docsRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
