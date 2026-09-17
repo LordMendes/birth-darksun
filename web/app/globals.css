@@ -1358,6 +1358,52 @@ a:hover {
   background: var(--surface);
 }
 
+.docs-main > article.heroic-doc {
+  width: min(60rem, 100%);
+}
+
+.heroic-doc h1 {
+  margin-bottom: 0.75rem;
+}
+
+.heroic-doc h2 {
+  font-size: 1.45rem;
+  margin: 2.4rem 0 0.85rem;
+  border-bottom: 0;
+}
+
+.heroic-table-group .prose-doc-table-wrap + .prose-doc-table-wrap {
+  margin-top: 1.5rem;
+}
+
+.heroic-skills-doc .prose-doc-table-wrap {
+  max-width: 100%;
+}
+
+.heroic-skills-doc th {
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.heroic-skills-doc th:first-child,
+.heroic-skills-doc td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.heroic-skills-doc th:first-child {
+  background: var(--code-bg);
+}
+
+.heroic-skills-doc td:first-child {
+  background: var(--background);
+}
+
+.heroic-skills-doc tbody tr:nth-child(even) td:first-child {
+  background: var(--surface);
+}
+
 @media (max-width: 48rem) {
   .race-stats,
   .class-stats,

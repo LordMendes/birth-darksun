@@ -5,6 +5,7 @@ const SHORTCUTS = [
   { href: "/docs/world", label: "World" },
   { href: "/docs/races", label: "Races" },
   { href: "/docs/classes", label: "Classes" },
+  { href: "/docs/heroic", label: "Heroic" },
   { href: "/docs/rules", label: "Rules" },
   { href: "/docs/sessions", label: "Sessions" },
   { href: "/docs/people", label: "People" },

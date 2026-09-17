@@ -15,7 +15,7 @@ Almost all standard D&D 3.5 classes appear on Athas, with two DS3-native martial
 
 ## Literacy
 
-All player characters start **illiterate**. Reading and writing are outlawed across the Tablelands. The **Literacy** skill works like Speak Language: each rank grants read/write ability in one language (speaking that language is not required). Literacy is trained-only. See [Chapter 3 skills](../rules/README.md) for the full Literacy entry.
+All player characters start **illiterate**. Reading and writing are outlawed across the Tablelands. The **Literacy** skill works like Speak Language: each rank grants read/write ability in one language (speaking that language is not required). Literacy is trained-only. See [Chapter 3 skills](../heroic/skills.md) for the full Literacy entry.
 
 PHB barbarian illiteracy does not apply on Athas; everyone begins unable to read until trained.
 
@@ -45,6 +45,7 @@ PHB barbarian illiteracy does not apply on Athas; everyone begins unable to read
 
 ## Related docs
 
+- [Heroic characteristics](../heroic/README.md) — DS3 v8 Chapter 3 skills, feats, religion
 - [Character races](../races/README.md)
 - [Region of origin](../races/region-of-origin.md) — typical class choices by homeland
 - [Rules](../rules/README.md) — psionics, defiling, house overrides

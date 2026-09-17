@@ -4,10 +4,16 @@ import { DocsBreadcrumbs } from "@/components/docs-breadcrumbs";
 import { LegaciesDoc } from "@/components/legacies-doc";
 import { MarkdownDoc } from "@/components/markdown-doc";
 import { ClassDoc, ClassesIndexDoc } from "@/components/class-doc";
+import {
+  HeroicCatalogDoc,
+  HeroicIndexDoc,
+  HeroicReligionDoc,
+} from "@/components/heroic-doc";
 import { RaceDoc, RacesIndexDoc, RegionsDoc } from "@/components/race-doc";
 import { getDocPage } from "@/lib/docs";
 import { getLegacyPowerRecord } from "@/lib/legacy-powers";
 import { classPageKind } from "@/lib/parse-class-page";
+import { heroicPageKind } from "@/lib/parse-heroic-page";
 import { racePageKind } from "@/lib/parse-race-page";
 
 function proseClassName(relPath: string): string {
@@ -27,6 +33,9 @@ function proseClassName(relPath: string): string {
   if (classKind === "domains" || classKind === "spells") {
     classes.push("class-reference-doc");
   }
+  const heroicKind = heroicPageKind(relPath);
+  if (heroicKind) classes.push("heroic-doc");
+  if (relPath === "heroic/skills.md") classes.push("heroic-skills-doc");
   return classes.join(" ");
 }
 
@@ -77,12 +86,23 @@ export default async function DocsPage(props: PageProps<"/docs/[[...slug]]">) {
       : undefined;
   const raceKind = racePageKind(page.relPath);
   const classKind = classPageKind(page.relPath);
+  const heroicKind = heroicPageKind(page.relPath);
 
   return (
     <article className={proseClassName(page.relPath)}>
       <DocsBreadcrumbs slug={slug ?? []} />
       {page.relPath === "rules/legacies.md" ? (
         <LegaciesDoc content={page.content} dirSlug={page.dirSlug} />
+      ) : heroicKind === "index" ? (
+        <HeroicIndexDoc content={page.content} dirSlug={page.dirSlug} />
+      ) : heroicKind === "religion" ? (
+        <HeroicReligionDoc content={page.content} dirSlug={page.dirSlug} />
+      ) : heroicKind === "catalog" ? (
+        <HeroicCatalogDoc
+          content={page.content}
+          dirSlug={page.dirSlug}
+          wideTable={page.relPath === "heroic/skills.md"}
+        />
       ) : classKind === "entity" ? (
         <ClassDoc
           content={page.content}
