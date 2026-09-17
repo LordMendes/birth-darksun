@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 import { DocsBreadcrumbs } from "@/components/docs-breadcrumbs";
 import { LegaciesDoc } from "@/components/legacies-doc";
 import { MarkdownDoc } from "@/components/markdown-doc";
+import { ClassDoc, ClassesIndexDoc } from "@/components/class-doc";
 import { RaceDoc, RacesIndexDoc, RegionsDoc } from "@/components/race-doc";
 import { getDocPage } from "@/lib/docs";
 import { getLegacyPowerRecord } from "@/lib/legacy-powers";
+import { classPageKind } from "@/lib/parse-class-page";
 import { racePageKind } from "@/lib/parse-race-page";
 
 function proseClassName(relPath: string): string {
@@ -20,6 +22,11 @@ function proseClassName(relPath: string): string {
   const raceKind = racePageKind(relPath);
   if (raceKind) classes.push("races-doc");
   if (raceKind === "vital") classes.push("vital-stats-doc");
+  const classKind = classPageKind(relPath);
+  if (classKind) classes.push("classes-doc");
+  if (classKind === "domains" || classKind === "spells") {
+    classes.push("class-reference-doc");
+  }
   return classes.join(" ");
 }
 
@@ -69,12 +76,21 @@ export default async function DocsPage(props: PageProps<"/docs/[[...slug]]">) {
       ? getLegacyPowerRecord()
       : undefined;
   const raceKind = racePageKind(page.relPath);
+  const classKind = classPageKind(page.relPath);
 
   return (
     <article className={proseClassName(page.relPath)}>
       <DocsBreadcrumbs slug={slug ?? []} />
       {page.relPath === "rules/legacies.md" ? (
         <LegaciesDoc content={page.content} dirSlug={page.dirSlug} />
+      ) : classKind === "entity" ? (
+        <ClassDoc
+          content={page.content}
+          dirSlug={page.dirSlug}
+          meta={page.meta}
+        />
+      ) : classKind === "index" ? (
+        <ClassesIndexDoc content={page.content} dirSlug={page.dirSlug} />
       ) : raceKind === "entity" ? (
         <RaceDoc
           content={page.content}

@@ -4,6 +4,7 @@ const SHORTCUTS = [
   { href: "/docs/campaign", label: "Campaign" },
   { href: "/docs/world", label: "World" },
   { href: "/docs/races", label: "Races" },
+  { href: "/docs/classes", label: "Classes" },
   { href: "/docs/rules", label: "Rules" },
   { href: "/docs/sessions", label: "Sessions" },
   { href: "/docs/people", label: "People" },

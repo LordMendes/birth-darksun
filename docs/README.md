@@ -27,6 +27,7 @@ Create a folder the first time that class of note appears. Do not add empty stub
 | `world/travel/` | Trade routes and overland rules |
 | `people/` | Player characters, NPCs, sorcerer-kings, templars, groups |
 | `races/` | Athasian player races: culture, relations, and DS3 racial traits |
+| `classes/` | Athasian character classes: DS3 v8 Chapter 2 rules and class features |
 | `factions/` | Organizations with their own agenda (houses, templars, Veiled Alliance, tribes) |
 | `adventures/` | Scenarios, set pieces, and planned encounters not yet tied to a session |
 | `reference/` | Source list, conversions, and pointers to official material ([atlas sources](reference/atlas-sources.md)) |
@@ -46,6 +47,7 @@ If a note does not fit any row, add a folder (or a file under `docs/`) and updat
 - **Campaign:** [Premise](campaign/premise.md) — gods died at the Shattering; primordial legacies and covenant
 - **Rules:** [House rules](rules/README.md) — Athasian scion legacy powers, psionics (DS3 baseline + overrides)
 - **Races:** [Character races](races/README.md) — DS3 v8 playable races and traits
+- **Classes:** [Character classes](classes/README.md) — DS3 v8 classes, with PHB/XPH mechanics inlined where DS3 defers
 - **World:** Atlas gazetteer and interactive map (`/map`) under `world/`
 
 Browse everything at `/docs` in the web app.

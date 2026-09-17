@@ -1275,6 +1275,61 @@ a:hover {
   padding-top: 0.25rem;
 }
 
+/* Classes */
+
+.docs-main > article.classes-doc {
+  width: min(60rem, 100%);
+}
+
+.classes-doc h1 {
+  margin-bottom: 0.75rem;
+}
+
+.classes-doc h2 {
+  font-size: 1.45rem;
+  margin: 2.4rem 0 0.85rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.class-stats {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.class-features-intro {
+  margin-bottom: 1rem;
+}
+
+.class-features-intro p,
+.class-features dd p {
+  max-width: none;
+}
+
+.class-index-card {
+  gap: 0.55rem;
+}
+
+.class-index-delta {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.class-literacy-note {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.class-literacy-note h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.15rem;
+}
+
+.class-reference-doc .prose-doc-table-wrap,
 .vital-stats-doc .prose-doc-table-wrap {
   max-width: 100%;
 }
@@ -1305,6 +1360,7 @@ a:hover {
 
 @media (max-width: 48rem) {
   .race-stats,
+  .class-stats,
   .race-index-grid,
   .race-support-grid {
     grid-template-columns: 1fr;
