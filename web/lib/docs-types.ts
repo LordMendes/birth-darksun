@@ -19,6 +19,7 @@ export type DocPage =
       content: string;
       relPath: string;
       dirSlug: string[];
+      meta: Record<string, string>;
     }
   | {
       kind: "listing";

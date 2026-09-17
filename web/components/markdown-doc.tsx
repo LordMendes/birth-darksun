@@ -1,10 +1,21 @@
 "use client";
 
-import type { ReactNode } from "react";
+import {
+  Children,
+  cloneElement,
+  isValidElement,
+  type ReactElement,
+  type ReactNode,
+} from "react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { LegacyPowerTip } from "@/components/legacy-power-tip";
 import { rewriteDocHref } from "@/lib/doc-links";
+import {
+  normalizeLegacyPowerName,
+  type LegacyPowerEntry,
+} from "@/lib/legacy-power-types";
 
 function textFromNode(node: ReactNode): string {
   if (node == null || typeof node === "boolean") return "";
@@ -29,9 +40,11 @@ function headingId(children: ReactNode): string {
 export function MarkdownDoc({
   content,
   dirSlug,
+  legacyPowers,
 }: {
   content: string;
   dirSlug: string[];
+  legacyPowers?: Record<string, LegacyPowerEntry>;
 }) {
   return (
     <Markdown
@@ -77,6 +90,34 @@ export function MarkdownDoc({
             <div className="prose-doc-table-wrap">
               <table>{children}</table>
             </div>
+          );
+        },
+        tr({ children }) {
+          if (!legacyPowers) return <tr>{children}</tr>;
+
+          const cells = Children.toArray(children);
+          if (cells.length !== 4) return <tr>{children}</tr>;
+
+          const lastCell = cells[3];
+          if (!isValidElement(lastCell)) return <tr>{children}</tr>;
+
+          const rawName = textFromNode(
+            (lastCell as ReactElement<{ children?: ReactNode }>).props.children,
+          );
+          if (rawName === "Legacy power") return <tr>{children}</tr>;
+
+          const power = legacyPowers[normalizeLegacyPowerName(rawName)];
+          if (!power) return <tr>{children}</tr>;
+
+          return (
+            <tr>
+              {cells.slice(0, 3)}
+              {cloneElement(
+                lastCell as ReactElement<{ children?: ReactNode }>,
+                {},
+                <LegacyPowerTip power={power} label={rawName} />,
+              )}
+            </tr>
           );
         },
       }}

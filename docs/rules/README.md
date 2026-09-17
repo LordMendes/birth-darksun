@@ -15,6 +15,7 @@ sources: ["Athas.org DS3", "EPH", "Table ruling"]
 
 | Page | Contents |
 | --- | --- |
+| [Character races](../races/README.md) | DS3 v8 playable races, traits, vital statistics |
 | [Scions and Legacy Score](godshards.md) | LS ranks, covenant, world cost |
 | [Primordial legacies](legacies.md) | Each legacy, kind, and rank type |
 | [Legacy powers](blood-abilities/README.md) | d100 tables + descriptions |

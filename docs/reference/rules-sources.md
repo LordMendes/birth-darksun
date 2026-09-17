@@ -8,7 +8,7 @@ last_updated: 2026-09-16
 
 | Source | Use |
 | --- | --- |
-| [Athas.org Dark Sun 3](https://www.athas.org/products/ds3) | Baseline 3.5 races, classes, defiling, Hidden Talent feats |
+| [Athas.org Dark Sun 3 v8](https://www.athas.org/products/ds3) | Baseline 3.5 races (Chapter 1), classes, defiling, Hidden Talent feats |
 | [Birthright blood ability structure](https://birthright.net/wiki/index.php/Blood_abilities) | d100 table layout, LS/ability slot model (OGL) |
 | [Expanded Psionics Handbook](https://www.d20srd.org/srd/psionic/) | Psionics, Hidden Talent, wild talent powers |
 | [Matthew Hope — Wild Talents PDF](https://www.enworld.org/ericnoah/conversions/wild_talents.pdf) | 2e-style wild talent conversion |

@@ -26,8 +26,8 @@ Create a folder the first time that class of note appears. Do not add empty stub
 | `world/landmarks/` | Ruins, shrines, terrain features |
 | `world/travel/` | Trade routes and overland rules |
 | `people/` | Player characters, NPCs, sorcerer-kings, templars, groups |
+| `races/` | Athasian player races: culture, relations, and DS3 racial traits |
 | `factions/` | Organizations with their own agenda (houses, templars, Veiled Alliance, tribes) |
-| `rules/` | 3.5 + Dark Sun mechanics in play, house rules, character creation |
 | `adventures/` | Scenarios, set pieces, and planned encounters not yet tied to a session |
 | `reference/` | Source list, conversions, and pointers to official material ([atlas sources](reference/atlas-sources.md)) |
 
@@ -45,6 +45,7 @@ If a note does not fit any row, add a folder (or a file under `docs/`) and updat
 
 - **Campaign:** [Premise](campaign/premise.md) — gods died at the Shattering; primordial legacies and covenant
 - **Rules:** [House rules](rules/README.md) — Athasian scion legacy powers, psionics (DS3 baseline + overrides)
+- **Races:** [Character races](races/README.md) — DS3 v8 playable races and traits
 - **World:** Atlas gazetteer and interactive map (`/map`) under `world/`
 
 Browse everything at `/docs` in the web app.

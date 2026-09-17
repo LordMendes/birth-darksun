@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:atlas": "node --import tsx --test lib/atlas/dijkstra.test.ts"
+    "test:atlas": "node --import tsx --test lib/atlas/dijkstra.test.ts",
+    "test:docs": "node --import tsx --test lib/parse-legacies-page.test.ts lib/parse-race-page.test.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -159,13 +159,28 @@ export function getDocPage(slug: string[] = []): DocPage | null {
   };
 }
 
+function metaFromMatter(data: Record<string, unknown>): Record<string, string> {
+  const meta: Record<string, string> = {};
+  for (const [key, value] of Object.entries(data)) {
+    if (typeof value === "string" && value.trim()) {
+      meta[key] = value.trim();
+    } else if (Array.isArray(value)) {
+      const joined = value
+        .filter((item): item is string => typeof item === "string")
+        .join(", ");
+      if (joined) meta[key] = joined;
+    }
+  }
+  return meta;
+}
+
 function filePage(
   filePath: string,
   slug: string[],
   dirSlug: string[],
 ): DocPage {
   const raw = readText(filePath);
-  const { content } = matter(raw);
+  const { content, data } = matter(raw);
   const stem = path.basename(filePath, path.extname(filePath));
   const relPath = path.relative(DOCS_ROOT, filePath).split(path.sep).join("/");
   return {
@@ -174,5 +189,6 @@ function filePage(
     content,
     relPath,
     dirSlug,
+    meta: metaFromMatter(data as Record<string, unknown>),
   };
 }
