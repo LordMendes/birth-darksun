@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
  * Ensure cropped atlas tiles exist under web/public/atlas/cropped/ before
- * `next build`. Those PNGs are gitignored, so a Vercel clone has the atlas
- * manifest but no files — the map then 404s on /atlas/cropped/*.png.
+ * `next build`. World tiles are committed; this rebuilds them if missing.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -108,9 +107,10 @@ async function main() {
     (name) => !fs.existsSync(path.join(CROPPED, name)),
   );
   if (stillMissing.length) {
-    console.warn(
+    console.error(
       `atlas: still missing cropped tiles: ${stillMissing.join(", ")}`,
     );
+    if (process.env.VERCEL) process.exit(1);
   }
 }
 
@@ -121,6 +121,5 @@ main().catch((err) => {
   } catch (writeErr) {
     console.error(writeErr);
   }
-  // Do not fail the app build if the Guild site is unreachable.
-  process.exit(0);
+  process.exit(process.env.VERCEL ? 1 : 0);
 });

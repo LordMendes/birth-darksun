@@ -27,8 +27,8 @@ function overlayAssetUrl(
 ): string | null {
   if (!localPath) return null;
   const cropped = `cropped/${localPath.replace(/^source\//, "").replace(/\.(jpe?g)$/i, ".png")}`;
-  if (availablePaths.has(cropped)) return `/atlas/${cropped}?v=3`;
-  if (availablePaths.has(localPath)) return `/atlas/${localPath}?v=3`;
+  if (availablePaths.has(cropped)) return `/atlas/${cropped}?v=4`;
+  if (availablePaths.has(localPath)) return `/atlas/${localPath}?v=4`;
   return null;
 }
 
