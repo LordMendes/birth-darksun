@@ -46,4 +46,6 @@ pnpm start
 pnpm lint
 ```
 
+`pnpm build` fetches and crops Guild map tiles into `web/public/atlas/` before compiling the app. Those PNGs are gitignored; without this step a Vercel deploy 404s on `/atlas/cropped/*.png`. Locally the step is a no-op if the tiles are already present. Skip with `SKIP_ATLAS_PREPARE=1`.
+
 Note schema and folder layout: [docs/README.md](docs/README.md).

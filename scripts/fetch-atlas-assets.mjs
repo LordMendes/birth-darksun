@@ -58,18 +58,37 @@ async function download(url, dest, { force = false } = {}) {
   return true;
 }
 
+function isMapTileOverlay(overlay) {
+  return (
+    Boolean(overlay.localPath) &&
+    (overlay.kind === "WTM" || overlay.id === "u-c5-last-frontier") &&
+    overlay.localPath.startsWith("source/")
+  );
+}
+
 async function main() {
   const catalog = JSON.parse(fs.readFileSync(OVERLAYS, "utf8"));
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const available = [];
   const force = process.argv.includes("--force");
+  const mapTilesOnly = process.argv.includes("--map-tiles");
+  const overlays = mapTilesOnly
+    ? catalog.overlays.filter(isMapTileOverlay)
+    : catalog.overlays;
 
-  for (const overlay of catalog.overlays) {
+  for (const overlay of overlays) {
     if (!overlay.sourceUrl || !overlay.localPath) continue;
     const dest = path.join(ROOT, "web", "public", "atlas", overlay.localPath);
     const ok = await download(overlay.sourceUrl, dest, { force });
     if (ok) available.push(overlay.localPath);
+  }
+
+  const sourceDir = path.join(ROOT, "web", "public", "atlas", "source");
+  if (fs.existsSync(sourceDir)) {
+    for (const name of fs.readdirSync(sourceDir)) {
+      if (/\.(png|jpe?g|webp)$/i.test(name)) available.push(`source/${name}`);
+    }
   }
 
   const croppedDir = path.join(ROOT, "web", "public", "atlas", "cropped");
@@ -83,7 +102,7 @@ async function main() {
     MANIFEST,
     `${JSON.stringify({ version: 1, paths: [...new Set(available)].sort() }, null, 2)}\n`,
   );
-  console.log(`Done. ${available.length} asset(s) available.`);
+  console.log(`Done. ${[...new Set(available)].length} asset(s) available.`);
 }
 
 main().catch((err) => {

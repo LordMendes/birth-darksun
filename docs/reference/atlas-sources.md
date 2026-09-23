@@ -8,12 +8,14 @@
 
 ## Local cache
 
-Map PNGs are fetched to `web/public/atlas/source/` (gitignored). From the repo root:
+Map PNGs are fetched to `web/public/atlas/source/` (gitignored) and cropped copies go to `web/public/atlas/cropped/` (also gitignored). From the repo root:
 
 ```bash
 pnpm atlas:fetch
 pnpm atlas:crop
 ```
+
+`pnpm build` (including Vercel) runs `pnpm atlas:prepare`, which fetches and crops the world tiles if they are missing so `/atlas/cropped/*.png` exists in the deploy.
 
 `atlas:crop` strips the Guild left-hand legend and white padding so markers sit on the painted geography. The atlas UI shows that legend as a collapsible tray.
 

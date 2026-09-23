@@ -1,6 +1,6 @@
 # Atlas asset cache (gitignored)
 
-Fetched map PNGs and generated XYZ tiles live here. They are **not** committed to the repo.
+Fetched map PNGs and generated XYZ tiles live here. They are **not** committed to the repo. Production builds populate `cropped/` via `pnpm atlas:prepare` (wired into `web` `pnpm build`).
 
 ## Populate
 
@@ -11,6 +11,8 @@ node scripts/fetch-atlas-assets.mjs
 node scripts/crop-atlas-tiles.mjs
 node scripts/build-atlas-tiles.mjs
 ```
+
+Or `pnpm atlas:prepare` (map tiles only, skips work when cropped files already exist).
 
 ## Layout
 

@@ -217,7 +217,10 @@ async function main() {
 
   const catalog = JSON.parse(fs.readFileSync(OVERLAYS, "utf8"));
   fs.mkdirSync(CROPPED, { recursive: true });
-  const meta = {};
+  const force = process.argv.includes("--force");
+  const meta = fs.existsSync(META)
+    ? JSON.parse(fs.readFileSync(META, "utf8"))
+    : {};
 
   const targets = catalog.overlays.filter(
     (o) =>
@@ -228,6 +231,12 @@ async function main() {
 
   for (const overlay of targets) {
     const src = path.join(ROOT, "web", "public", "atlas", overlay.localPath);
+    const destName = path.basename(overlay.localPath).replace(/\.(jpe?g)$/i, ".png");
+    const dest = path.join(CROPPED, destName);
+    if (!force && fs.existsSync(dest)) {
+      console.log(`skip (exists): ${overlay.id}`);
+      continue;
+    }
     if (!fs.existsSync(src)) {
       console.warn(`skip missing ${overlay.id}`);
       continue;
@@ -284,8 +293,6 @@ async function main() {
       }
     }
 
-    const destName = path.basename(overlay.localPath).replace(/\.(jpe?g)$/i, ".png");
-    const dest = path.join(CROPPED, destName);
     await pipeline.png({ compressionLevel: 8 }).toFile(dest);
     if (!meta[overlay.id]) {
       meta[overlay.id] = {

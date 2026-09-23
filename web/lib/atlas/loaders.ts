@@ -43,18 +43,25 @@ export function resolveAtlasAssetPath(
 }
 
 export function getAvailableAtlasPaths(): Set<string> {
-  const paths = new Set<string>();
-  const manifestPath = path.join(DATA_ROOT, "available-assets.json");
-  if (fs.existsSync(manifestPath)) {
-    const manifest = readJson<{ paths: string[] }>("available-assets.json");
-    for (const p of manifest.paths) paths.add(p);
-  }
-
+  const fromDisk = new Set<string>();
   for (const folder of ["source", "cropped"] as const) {
     const dir = path.join(ATLAS_PUBLIC, folder);
     if (!fs.existsSync(dir)) continue;
     for (const name of fs.readdirSync(dir)) {
-      if (/\.(png|jpe?g|webp)$/i.test(name)) paths.add(`${folder}/${name}`);
+      if (/\.(png|jpe?g|webp)$/i.test(name)) fromDisk.add(`${folder}/${name}`);
+    }
+  }
+
+  const paths = new Set<string>(fromDisk);
+  const manifestPath = path.join(DATA_ROOT, "available-assets.json");
+  if (fs.existsSync(manifestPath)) {
+    const manifest = readJson<{ paths: string[] }>("available-assets.json");
+    for (const p of manifest.paths) {
+      // Locally, public/atlas is on disk — ignore a stale committed manifest.
+      // On Vercel the lambda often has no public files; trust the build
+      // manifest so ImageOverlay URLs match the CDN copies of those PNGs.
+      if (fromDisk.size > 0 && !fromDisk.has(p)) continue;
+      paths.add(p);
     }
   }
   return paths;
